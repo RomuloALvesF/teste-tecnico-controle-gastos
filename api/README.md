@@ -13,6 +13,8 @@ dotnet run
 
 A API aplica migrations automaticamente ao iniciar (SQLite) e persiste os dados no arquivo `app.db`.
 
+Por padrão ela sobe em **`http://localhost:5000`**, alinhado ao `VITE_API_BASE_URL` do front (veja `front/.env.example`).
+
 ## CORS (front em dev)
 
 Em desenvolvimento, a API permite requests do front em `http://localhost:5173`.

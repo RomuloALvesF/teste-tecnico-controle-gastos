@@ -47,6 +47,9 @@ Configuração da URL da API:
 Projeto de testes em `api.tests/` (xUnit), cobrindo regras de negócio centrais:
 
 ```bash
+# PowerShell / CMD (Windows)
 dotnet test .\api.tests\api.tests.csproj
+
+dotnet test api.tests/api.tests.csproj
 ```
 
